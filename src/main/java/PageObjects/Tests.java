@@ -42,7 +42,7 @@ public class Tests extends Baseclass {
             String Address = eu.getdatafromexcel("Sheet1", 1, 3);
 
             test.log(Status.INFO, "Data fetched from Excel successfully");
-             System.out.println("Testing");
+             System.out.println("TestingDone");
             // Actions
             po.EEmail(Email);
             po.enterUsername(username);
